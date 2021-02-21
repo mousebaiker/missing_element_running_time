@@ -25,13 +25,13 @@ I implemented solutions in C++ and measured their running time using `std::chron
 
 For each array size N I generated 100 arrays and measured running time on each of them on my own laptop. The times were then averaged.
 
-The results for different values of array sizes are present in the table below.
+The results for different values of array sizes are present in the table below. Running times are measured in nanoseconds.
 
 
 |       | N=10^2 |N=10^3 |N=10^4 |N=10^5 |N=10^6 |N=10^7 |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| Set-based     |   17520 ± 985.19     | 170348 ± 9393.33 | 1.58166e+06 ± 143622 | 2.16177e+07 ± 1.01989e+06  |  3.99651e+08 ± 2.63262e+06 | -
-| XOR-based   | 98 ± 19.8997  | 322 ± 46 | 2448 ± 67.0522 | 24831 ± 1541.86 | 214321 ± 20859 | 3.54288e+06 ± 135647
+| Set-based     |   17520 ± 985.19     | 170348 ± 9393.33 | 1.58e+06 ± 143622 | 2.16e+07 ± 1.01e+06  |  3.99e+08 ± 2.63e+06 | -
+| XOR-based   | 98 ± 19.8997  | 322 ± 46 | 2448 ± 67.0522 | 24831 ± 1541.86 | 214321 ± 20859 | 3.54e+06 ± 135647
 
 And the same  results in the more visual format.
 
